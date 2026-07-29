@@ -1,0 +1,8 @@
+.navigation-link {
+  font-size: 9px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  background: rgba(27, 65, 75, 0.5);
+}

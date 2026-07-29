@@ -1,0 +1,43 @@
+.yacht-list-item {
+  border-radius: 24px;
+
+  background-color: #fbfbfb;
+}
+
+.yacht-list-image {
+  border-radius: 24px;
+}
+
+.yacht-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+
+.options-item,
+.yacht-list-title-type {
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+.yacht-list-title .yacht-list-title-type {
+  font-size: 13px;
+}
+
+.options-item-value {
+  text-transform: none;
+  color: #040306;
+}
+
+.yacht-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+}

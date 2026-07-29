@@ -1,0 +1,10 @@
+.about-text {
+  font-size: 23px;
+  color: #1b414b;
+}
+
+.about-description {
+  font-size: 13px;
+  line-height: 1.15;
+  color: rgba(4, 3, 6, 0.4);
+}
