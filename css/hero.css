@@ -1,10 +1,29 @@
+.hero {
+  padding-top: 235px;
+  padding-bottom: 180px;
+  background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .hero-title {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+
   font-weight: 500;
   font-size: 80px;
   text-align: center;
 }
 
 .hero-text {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+
   font-weight: 300;
   font-size: 16px;
   line-height: 1.4;
@@ -13,10 +32,20 @@
 }
 
 .hero-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 180px;
+  height: 52px;
+  margin-right: auto;
+  margin-left: auto;
+
   font-weight: 500;
   font-size: 18px;
   line-height: 1.1;
   color: inherit;
 
+  border-radius: 15px;
   background-color: #1b414b;
 }
