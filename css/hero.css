@@ -49,11 +49,13 @@
   border-radius: 15px;
   background-color: #1b414b;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-link:hover,
 .hero-link:focus {
-  background-color: #062730;
-  border: 1px solid #fff;
+  background-color: #fbfbfb;
+  color: #1b414b;
 }
