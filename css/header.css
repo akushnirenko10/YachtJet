@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  top: 32px;
+  top: 20px;
   left: 50%;
   z-index: 999;
 
@@ -8,10 +8,8 @@
   align-items: center;
   justify-content: space-between;
 
-  width: 1240px;
-  height: 48px;
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 335px;
+  padding: 7px 20px;
 
   transform: translate(-50%);
   border-radius: 8px;
@@ -23,4 +21,49 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.burger-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+}
+
+.burger-icon {
+  stroke: #1b414b;
+}
+
+.burger-button:active .burger-icon {
+  stroke: #055545;
+}
+
+.close-icon {
+  fill: #1b414b;
+}
+
+.burger-button:active .close-icon {
+  fill: #055545;
+}
+
+/*--------------------- TABLET */
+@media screen and (min-width: 768px) {
+  .header {
+    top: 32px;
+    width: 704px;
+    height: 48px;
+    padding: 4px 28px;
+  }
+
+  .burger-button {
+    display: none;
+  }
+}
+
+/* ++++++++++++++++++++++++ DESCTOP */
+@media screen and (min-width: 1440px) {
+  .header {
+    width: 1240px;
+  }
 }

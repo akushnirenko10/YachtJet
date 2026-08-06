@@ -1,5 +1,5 @@
 .social {
-  display: flex;
+  display: none;
   column-gap: 8px;
 }
 
@@ -26,4 +26,10 @@
 
 .social-link svg {
   fill: currentColor;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    display: flex;
+  }
 }

@@ -45,6 +45,12 @@ p {
 button {
   border: none;
   cursor: pointer;
+
+  color: inherit;
+  cursor: pointer;
+
+  padding: 0;
+  line-height: 0;
 }
 
 .sr-only {

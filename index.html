@@ -23,7 +23,6 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <!-- <div class="container header-container"> -->
       <a class="logo" href="./index.html">yachtjet</a>
 
       <nav>
@@ -78,11 +77,15 @@
           </a>
         </li>
       </ul>
-      <!-- </div> -->
+      <button class="burger-button" type="button">
+        <svg class="burger-icon" width="28" height="28">
+          <use href="./images/icons/sprite.svg#burger-menu"></use>
+        </svg>
+      </button>
     </header>
 
-    <main>
-      <!-- HERO -->
+    <!-- <main>
+      
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">
@@ -98,7 +101,7 @@
         </div>
       </section>
 
-      <!-- ABOUT -->
+     
       <section id="about" class="section">
         <div class="container">
           <div class="about-wrapper">
@@ -126,7 +129,7 @@
         </div>
       </section>
 
-      <!-- YACHTS -->
+    
       <section id="yachts" class="section">
         <div class="container">
           <h2 class="section-title">
@@ -238,7 +241,7 @@
         </div>
       </section>
 
-      <!-- BENEFITS -->
+ 
       <section class="section">
         <div class="container">
           <h2 class="sr-only">Benefits</h2>
@@ -272,7 +275,7 @@
         </div>
       </section>
 
-      <!-- RENT -->
+
       <section id="rent" class="rent section">
         <div class="container rent-conatainer">
           <img
@@ -317,7 +320,7 @@
         </div>
       </section>
 
-      <!-- REVIEWS -->
+ 
       <section id="reviews" class="section section-reviews">
         <div class="container">
           <h2 class="section-title">
@@ -377,7 +380,7 @@
       </section>
     </main>
 
-    <!-- FOOTER -->
+
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-nav">
@@ -454,6 +457,71 @@
           <a class="footer-copyright" href="#">Privacy Police</a>
         </p>
       </div>
-    </footer>
+    </footer> -->
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+      <div class="header">
+        <a class="logo" href="./index.html">yachtjet</a>
+        <button class="burger-button" type="button">
+          <svg class="close-icon" width="28" height="28">
+            <use href="./images/icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+
+      <nav>
+        <ul class="navigation-mobile-menu">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#about">About</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#yachts">Yachts</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="social-mobile-menu">
+        <li class="social-item">
+          <a
+            class="social-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="19" height="19">
+              <use href="./images/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="19" height="19">
+              <use href="./images/icons/sprite.svg#youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <svg width="20" height="20">
+              <use href="./images/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
