@@ -1,27 +1,43 @@
 .about-wrapper {
   background-color: #fbfbfb;
   border-radius: 24px;
-  overflow: hidden;
 }
 
 .about-content-wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 50px 100px;
-}
-
-.about-text-wrapper {
-  width: 400px;
+  padding: 40px 20px;
 }
 
 .about-text {
   margin-bottom: 20px;
-  font-size: 23px;
+
+  font-size: 18px;
   color: #1b414b;
 }
 
 .about-description {
-  font-size: 13px;
-  line-height: 1.15;
+  font-size: 12px;
+  line-height: 1.17;
   color: rgba(4, 3, 6, 0.4);
+}
+
+.about-img {
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-content-wrapper {
+    padding: 50px 50px 100px;
+  }
+
+  .about-text-wrapper {
+    width: 400px;
+  }
+  .about-text {
+    font-size: 23px;
+  }
+
+  .about-description {
+    font-size: 13px;
+    line-height: 1.15;
+  }
 }

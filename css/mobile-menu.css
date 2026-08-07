@@ -3,18 +3,14 @@
   inset: 0;
   z-index: 999;
 
-  pointer-events: none;
-  opacity: 0;
-  visibility: hidden;
   background-color: #0e1823;
+  transform: translateX(100%);
 
-  transition: opacity 250ms linear;
+  transition: transform 250ms linear;
 }
 
 .mobile-menu.is-open {
-  opacity: 1;
-  pointer-events: auto;
-  visibility: visible;
+  transform: translateX(0);
 }
 
 .navigation-mobile-menu {
